@@ -1,0 +1,16 @@
+.animated-border:hover{
+	border-bottom: solid 1px #000;
+    border-top: solid 1px #000;
+	animation: border_anim 0.5s;
+}
+
+
+
+@keyframes border_anim {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 100%;
+	}
+}
